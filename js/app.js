@@ -114,7 +114,7 @@ function eventListeners() {
 
                 modal.classList.add('work-modal__show');
 
-                document.querySelector('.work-modal__item').style.background = `url('./img/work-${id}.jpeg')center/cover`;
+                document.querySelector('.work-modal__item').style.background = `url('img/work-${id}.jpeg')center/cover`;
             }
         })
     });
