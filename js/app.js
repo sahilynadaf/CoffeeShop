@@ -109,13 +109,13 @@ function eventListeners() {
             e.preventDefault();
             if (e.target.parentElement.classList.contains('work-item__icon')) {
                 let id = e.target.parentElement.dataset.id;
-                   console.log(id) 
+                   alert(id); 
                 let modal = document.querySelector('.work-modal');
 
                 modal.classList.add('work-modal__show');
 
                 document.querySelector('.work-modal__item').style.background = `url('img/work-${id}.jpeg')center/cover`;
-                console.log(document.querySelector('.work-modal__item').style.background );
+        
             }
         })
     });
