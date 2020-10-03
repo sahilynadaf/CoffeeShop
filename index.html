@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coffee Shop</title>
+  <!-- main css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- font awesome -->
+  <script src="js/all.js"></script>
+</head>
+
+<body>
+  <!-- preloader -->
+  <div class="preloader">
+    <img src="./img/preloader.gif" alt="preloader" class="preloader__item">
+  </div>
+  <!-- end preloader -->
+
+  <!-- header -->
+  <header class="header" id="header">
+
+    <!-- banner -->
+    <div class="banner">
+      <h1 class="banner__title">coffee junkie</h1>
+      <div class="banner__icons">
+        <a href="https://www.facebook.com" class="banner__social_icon" target="_blank">
+          <i class="fab fa-facebook fa-fw"></i>
+        </a>
+        <a href="https://www.twitter.com"" class=" banner__social_icon" target="_blank">
+          <i class="fab fa-twitter fa-fw"></i>
+        </a>
+        <a href="https://www.google.com"" class=" banner__social_icon" target="_blank">
+          <i class="fab fa-google-plus fa-fw"></i>
+        </a>
+        <a href="https://www.instagram.com"" class=" banner__social_icon" target="_blank">
+          <i class="fab fa-instagram fa-fw"></i>
+        </a>
+      </div>
+    </div>
+    <!-- banner end -->
+
+    <!-- video -->
+    <article class="video__container">
+      <video class="video_item" autoplay muted loop>
+        <!--  -->
+        <source loading="lazy" src='./video/coffee.mp4' type="video/mp4">
+        <source loading="lazy" src='./video/coffee.ogv' type="video/ogv">
+        <source loading="lazy" src='./video/coffee.webm' type="video/webm">
+        Your Browser Does Not Support Video
+      </video>
+    </article>
+    <div class="navBtn"><i class="fas fa-bars"></i></div>
+    <!-- fa-times -->
+
+    <!-- navbar -->
+    <nav class="nav">
+      <ul class="nav__links">
+        <li><a href="#" class="nav__single-link nav__logo"><img src="./img/navLogo.svg" alt=""></a></li>
+        <li><a href="#header" class="nav__single-link">Home</a></li>
+        <li><a href="#about" class="nav__single-link">About</a></li>
+        <li><a href="#drink" class="nav__single-link">Free Drink</a></li>
+        <li><a href="#work" class="nav__single-link">Work</a></li>
+        <li><a href="#contact" class="nav__single-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- video swaitch button -->
+    <div class="video__switch-container">
+      <div class="video__switch">
+        <span>on</span>
+        <span>off</span>
+        <div class="video__switch-btn"></div>
+      </div>
+    </div>
+  </header>
+  <!-- end header -->
+
+  <!-- about -->
+  <section class="about section-padding" id="about">
+    <div class="grid-container grid-container--medium-2">
+      <!-- about container -->
+      <article class="about-container">
+        <!-- first child -->
+        <div class="section-title">
+          <h1 class="section-title__name">Our Story</h1>
+          <div class="section-title__underscore"></div>
+          <p class="section-title__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt deserunt
+            aliquid vero impedit corrupti expedita enim quia veniam tempora ipsa laboriosam aspernatur, labore quo!
+            Minus velit rerum ea repellat aut, blanditiis deserunt quo adipisci error, quis minima? Dolore quisquam, vel
+            dolores fugiat illum qui, repudiandae recusandae totam laudantium repellat ex?</p>
+        </div>
+        <!-- second child -->
+        <div class="about__img">
+          <img loading="lazy" src="./img/aboutImg-1.jpeg" alt="About-Image" class="about__img-item">
+        </div>
+      </article>
+
+      <article class="about-container">
+        <!-- first child -->
+        <div class="section-title">
+          <h1 class="section-title__name">What We Do</h1>
+          <div class="section-title__underscore"></div>
+          <p class="section-title__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt deserunt
+            aliquid vero impedit corrupti expedita enim quia veniam tempora ipsa laboriosam aspernatur, labore quo!
+            Minus velit rerum ea repellat aut, blanditiis deserunt quo adipisci error, quis minima? Dolore quisquam, vel
+            dolores fugiat illum qui, repudiandae recusandae totam laudantium repellat ex?</p>
+        </div>
+        <!-- second child -->
+        <div class="about__img about__img-spl">
+          <img loading="lazy" src="./img/aboutImg-2.jpeg" alt="About-Image" class="about__img-item">
+        </div>
+      </article>
+      <!-- End Of About Container  -->
+    </div>
+  </section>
+  <!-- End Of About -->
+
+  <!-- drink section -->
+  <section class="drink section-padding" id="drink">
+
+    <div class="grid-container">
+      <!-- first item -->
+      <form class="drink-form">
+        <p class="drink-form__feedback">text</p>
+        <h3 class="drink-form__title">to get free drink</h3>
+        <div class="drink_form__input"><input type="text" class="input-name" placeholder="Name"></div>
+
+        <div class="drink_form__input"><input type="text" class="input-lastname" placeholder="Last Name"></div>
+
+        <div class="drink_form__input"><input type="email" class="input-email" placeholder="Email"></div>
+
+        <button type="submit" class="input-submit">Submit</button>
+      </form>
+      <!-- second item -->
+
+      <article class="drink-card">
+        <h3 class="drink-card__title">lucky people</h3>
+        <div class="drink-card__list">
+          <!-- <div class="person">
+            <img src="./img/person-0.jpeg" alt="person" class="person__thumbnail">
+            <h4 class="person__name">john</h4>
+            <h4 class="person__last-name">doe</h4>
+          </div> -->
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- drink section end -->
+
+  <!-- work section -->
+  <section class="work section-padding" id="work">
+    <div class="section-title custome-padding">
+      <!-- section-title--left custome-padding -->
+      <h1 class="section-title__name">Our Work</h1>
+      <!-- custome-heading -->
+      <div class="section-title__underscore"></div>
+      <!-- custome-underscore -->
+    </div>
+
+    <!-- end of title -->
+    <div class="work-container">
+      <!-- single work item -->
+      <article class="item-1 work-item">
+        <img src="./img/work-1.jpeg" alt="item-1" class="work-item__img">
+        <a href="#" class="work-item__icon" data-id='1'>
+          <i class="fas fa-search"></i>
+        </a>
+      </article>
+      <!-- end of single work item -->
+      <!-- single work item -->
+      <article class="item-2 work-item">
+        <img src="./img/work-2.jpeg" alt="item-2" class="work-item__img">
+        <a href="#" class="work-item__icon" data-id='2'>
+          <i class="fas fa-search"></i>
+        </a>
+      </article>
+      <!-- end of single work item -->
+      <!-- single work item -->
+      <article class="item-3 work-item">
+        <img src="./img/work-3.jpeg" alt="item-3" class="work-item__img">
+        <a href="#" class="work-item__icon" data-id='3'>
+          <i class="fas fa-search"></i>
+        </a>
+      </article>
+      <!-- end of single work item -->
+      <!-- single work item -->
+      <article class="item-4 work-item">
+        <img src="./img/work-4.jpeg" alt="item-4" class="work-item__img">
+        <a href="#" class="work-item__icon" data-id='4'>
+          <i class="fas fa-search"></i>
+        </a>
+      </article>
+      <!-- end of single work item -->
+      <!-- single work item -->
+      <article class="item-5 work-item">
+        <img src="./img/work-5.jpeg" alt="item-5" class="work-item__img">
+        <a href="#" class="work-item__icon" data-id='5'>
+          <i class="fas fa-search"></i>
+        </a>
+      </article>
+      <!-- end of single work item -->
+      <!-- single work item -->
+      <article class="item-6 work-item">
+        <img src="./img/work-6.jpeg" alt="item-6" class="work-item__img">
+        <a href="#" class="work-item__icon" data-id='6'>
+          <i class="fas fa-search"></i>
+        </a>
+      </article>
+      <!-- end of single work item -->
+      <!-- single work item -->
+      <article class="item-7 work-item">
+        <img src="./img/work-7.jpeg" alt="item-7" class="work-item__img">
+        <a href="#" class="work-item__icon" data-id='7'>
+          <i class="fas fa-search"></i>
+        </a>
+      </article>
+      <!-- end of single work item -->
+      <!-- single work item -->
+      <article class="item-8 work-item">
+        <img src="./img/work-8.jpeg" alt="item-8" class="work-item__img">
+        <a href="#" class="work-item__icon" data-id='8'>
+          <i class="fas fa-search"></i>
+        </a>
+      </article>
+      <!-- end of single work item -->
+      <!-- single work item -->
+      <article class="item-9 work-item">
+        <img src="./img/work-9.jpeg" alt="item-9" class="work-item__img">
+        <a href="#" class="work-item__icon" data-id='9'>
+          <i class="fas fa-search"></i>
+        </a>
+      </article>
+      <!-- end of single work item -->
+    </div>
+    <!-- work -->
+
+    <div class="work-modal">
+      <div class="work-modal__item">
+
+      </div>
+      <div class="work-modal__close">
+        <i class="fas fa-window-close"></i>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Section Ended -->
+
+  <!-- Conatact section -->
+  <section class="contact section-padding" id="contact">
+
+    <div class="section-title custome-padding">
+      <h1 class="section-title__name">Contact</h1>
+      <div class="section-title__underscore"></div>
+    </div>
+
+    <div class="contact-container">
+      <iframe class="contact-map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48333.098528586!2d-74.36407408391031!3d40.78800070667771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3a9695eaa775b%3A0xfa57b28f97712764!2sLivingston%2C%20NJ%2007039%2C%20USA!5e0!3m2!1sen!2sin!4v1601718071701!5m2!1sen!2sin"
+        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0"></iframe>
+
+      <div class="contact-info contact-info-1">
+        <div class="contact-item">
+          <div class="contact-item__icon">
+            <i class="fas fa-map-pin"></i>
+          </div>
+          <h2 class="contact-item__title">Address</h2>
+          <p class="contact-item__text">8139 w coffee street , San Diego</p>
+        </div>
+      </div>
+
+      <div class="contact-info contact-info-2">
+        <div class="contact-item">
+          <div class="contact-item__icon">
+            <i class="fas fa-headphones-alt"></i>
+          </div>
+          <h2 class="contact-item__title">Suport</h2>
+          <p class="contact-item__text">
+            <span>
+              <i class="fas fa-phone"></i>
+            </span>
+            +123 456 789
+          </p>
+
+          <p class="contact-item__text">
+            <span>
+              <i class="fas fa-envelope"></i>
+            </span>
+            email@gmail.com
+          </p>
+        </div>
+      </div>
+
+      <div class="contact-info contact-info-3">
+        <div class="contact-item">
+          <div class="contact-item__icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <h2 class="contact-item__title">Work Time</h2>
+          <p class="contact-item__text">Mon - Fri 08:00 AM to 08:00 PM</p>
+          <p class="contact-item__text">Sat - Sun 09:00 AM to 10:00 PM</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section Ended -->
+
+  <footer class="footer">
+    <p class="footer-text">2020 &copy;sahil</p>
+    <a href="#header" class="link-home">
+      <i class="fas fa-angle-double-up"></i>
+    </a>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
