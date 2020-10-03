@@ -109,7 +109,7 @@ function eventListeners() {
             e.preventDefault();
             if (e.target.parentElement.classList.contains('work-item__icon')) {
                 let id = e.target.parentElement.dataset.id;
-                   alert(id); 
+                   
                 let modal = document.querySelector('.work-modal');
 
                 modal.classList.add('work-modal__show');
